@@ -1,0 +1,14 @@
+slack_webhook: ""
+log_path: "/var/log/nginx/hng-access.log"
+dashboard_port: 8080
+window_seconds: 60
+baseline_window_minutes: 30
+baseline_recalc_interval: 60
+anomaly_zscore_threshold: 3.0
+anomaly_multiplier_threshold: 5.0
+error_rate_multiplier: 3.0
+ban_schedule:
+  - 600
+  - 1800
+  - 7200
+  - -1
