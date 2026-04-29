@@ -56,3 +56,6 @@ docker compose up -d --build
 
 ## Repository
 https://github.com/AmarachOrdor18/anomaly-detector
+
+## Blog Post
+https://amarachiordor.hashnode.dev/how-i-built-a-real-time-ddos-detection-engine-from-scratch
